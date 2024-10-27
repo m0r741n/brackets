@@ -11,5 +11,8 @@ module.exports = function check(str, bracketsConfig) {
     }
   });
 
-  return stack.length === 0;
+  if(stack.length === 0) {
+    return true;
+  }
+  return false;
 }
