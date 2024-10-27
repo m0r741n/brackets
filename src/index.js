@@ -11,6 +11,5 @@ module.exports = function check(str, bracketsConfig) {
     }
   });
 
-  console.log(stack)
   return stack.length === 0;
 }
